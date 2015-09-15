@@ -1,0 +1,35 @@
+body {
+font-family: serif; font-size: 11pt;
+}
+
+#header {
+margin: 0px;
+padding: 0px;
+width: auto;
+font-weight: bold;
+border: none;
+}
+
+.bTitle, .title {
+margin-top: 12px;
+margin-bottom: 6px;
+}
+
+img {
+border: none;
+}
+
+.bPosts, .bPostsWide {
+float: none;
+margin: 0px;
+padding: 0px;
+width: auto
+}
+
+.bPost {
+margin-bottom: 22px;
+}
+
+#bSideBar, #pageFooter {
+display: none;
+}

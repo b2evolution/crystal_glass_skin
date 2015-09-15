@@ -1,0 +1,655 @@
+	/* styles for crystal_glass skin */
+body {
+	background: url(img/bgcolor.jpg);
+	background-color: #d5d6d7;
+	font-size: 62.5%; /* Resets 1em to 10px */
+	font-family: 'Lucida Grande', Verdana, Arial, sans-serif;
+	color: #333;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	background: url(img/bg.jpg) repeat-y top;
+	text-align: left;
+	border: none;
+	margin: 20px auto;
+	padding: 0;
+	width: 760px;
+}
+
+#wrapperWide {
+	background: url(img/bgwide.jpg) repeat-y top;
+	text-align: left;
+	border: none;
+	margin: 20px auto;
+	padding: 0;
+	width: 760px;
+}
+
+.pageHeader {
+	background: url(img/header.jpg) no-repeat bottom center;
+	background-color: #d5d6d7;
+	margin: 0;
+	border: none;
+	padding: 0;
+	height: 200px;
+	width: 760px;
+}
+
+.widget_core_coll_tagline {
+	font-size: 1.2em;
+	text-align: center;
+	color: white;
+}
+
+.bPosts {
+	margin: 0;
+	float: left;
+	padding: 0 0 20px 45px;
+	width: 450px;
+	font-size: 1.2em;
+}
+
+.bPostsWide {
+	margin: 45px 0 0 45px;
+	border: none;
+	padding: 10px 0 20px 0;
+	width: 670px;
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+
+.bSideBar {
+	margin-left: 535px;
+	padding: 20px 0 10px 0;
+	width: 190px;
+	font-size: 1em;
+	font-family: 'Lucida Grande', Verdana, Arial, sans-serif;
+}
+
+.pageFooter {
+	background: url(img/footer.jpg) no-repeat bottom center;
+	background-color: #eee;
+	border: none;
+	padding: 3px, 0;
+	margin: 0 auto;
+	width: 760px;
+	clear: both;
+}
+
+/* Begin styles for bloglist */
+.PageTop {
+	margin: -2.2em 32px 0 32px;
+	border: 0px solid #000;
+	padding: 0;
+}
+
+.blog_list {
+	margin-left: 30px !important;
+	margin-top: 30px !important;
+	position: absolute;
+}
+.widget_core_colls_list_public ul, .blog_list {
+	margin: 0 1px;
+	padding: 0;
+	list-style-type: none;
+	padding: .5ex 0;
+}
+
+.widget_core_colls_list_public ul li, .blog_list a {
+	background-color: #2B4A8A;
+	border: 1px solid #000;
+	display: inline;
+	padding: .5ex 1em;
+}
+
+.widget_core_colls_list_public ul li a.default,.widget_core_colls_list_public ul li a.selected, .blog_list a
+	{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.widget_core_colls_list_public ul li a, .blog_list a {
+	color: #7788AA;
+}
+
+.widget_core_colls_list_public ul li a:hover, .blog_list a:hover {
+	text-decoration: underline;
+	color: #A0B2D5;
+}
+
+.widget_core_colls_list_public ul li a.selected,.widget_core_colls_list_public ul li a.selected:visited, .blog_list a.selected:visited
+	{
+	color: #A0B2D5;
+}
+
+.widget_core_colls_list_public ul li a.selected:hover, .blog_list a.selected:hover {
+	text-decoration: underline;
+	color: #FFF;
+}
+/* End styles for bloglist */ 
+
+/* Begin styles for top_menu */
+div.top_menu {
+	height: 20px;
+	margin-left: 17px;
+	width: 90%;
+}
+
+div.top_menu ul {
+	background-color: #DFDFDF;
+	margin: 3px;
+	padding: 0;
+	list-style-type: none;
+	padding: .5ex 0;
+}
+
+div.top_menu li {
+	display: inline;
+	padding: .5ex 0 .5ex 1em;
+}
+
+div.top_menu a {
+	text-decoration: none;
+	color: #000;
+}
+
+div.top_menu a:hover {
+	text-decoration: underline;
+}
+/*
+.top_menu {
+	margin: -17.2em 32px 15em 32px;
+	border: 0px solid #000;
+	padding: 0;
+}
+
+.top_menu ul {
+	margin: 0 1px;
+	padding: 0;
+	list-style-type: none;
+	padding: .5ex 0;
+}
+
+.top_menu ul li {
+	background-color: #1B375C; #2B4A8A;
+	border: 1px solid #000;
+	display: inline;
+	padding: .5ex 1em;
+}
+
+.top_menu ul li a {
+	color: #7788AA;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.top_menu ul li a:hover {
+	text-decoration: underline;
+	color: #A0B2D5;
+}
+
+.top_menu ul li a.selected,.top_menu ul li a.selected:visited {
+	color: #A0B2D5;
+}
+
+.top_menu ul li a.selected:hover {
+	text-decoration: underline;
+	color: #FFF;
+}
+*/
+/* End style for top_menu */ 
+
+/* Begin styles for posts */
+.bPost,.bPostpublished {
+	clear: both;
+	margin-bottom: 24px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 12px;
+	text-align: justify;
+}
+
+.bPostsWide .bPost {
+	margin: 0;
+}
+
+.bTitle {
+	margin: .6ex 0 .2ex 0
+}
+
+.bSmallHead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	color: #777;
+}
+
+.bText,.bCommentText {
+	margin: 0;
+	border: none;
+	padding: 0;
+	line-height: 1.4em;
+}
+
+.bPostsWide .bText,.bPostsWide .bCommentText {
+	line-height: 1.4em;
+}
+
+.bPostsWide .bText p,.bPostsWide .bCommentText p {
+	font-size: 1.05em;
+}
+
+.bText p a:visited,.bCommentText p a:visited {
+	color: #b85b5a;
+}
+
+ol.bCommentList li {
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+}
+
+/* Special stylized non-IE bullets */
+html>body .bText ul {
+	margin-left: 0px;
+	padding: 0 0 0 30px;
+	list-style: none;
+	padding-left: 10px;
+	text-indent: -10px;
+}
+
+html>body .bText li {
+	margin: 7px 0 8px 10px;
+}
+
+.bText ul li:before,.bCommentText ul li:before,.bSideBar ul li:before {
+	content: "\00BB \0020";
+}
+
+.bText ol,.bCommentText ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+}
+
+.bText ol li,.bCommentText ol li {
+	margin: 0;
+	padding: 0;
+}
+
+.bSmallPrint,.bCommentSmallPrint {
+	clear: both;
+	color: #999;
+	color: #777;
+	font-size: 96%;
+	margin: 1ex 0 2ex 0;
+}
+
+.bCommentSmallPrint {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 92%;
+	margin: 1ex 0;
+}
+
+/* Begin styles for comments */
+div.bComment,form.bComment {
+	margin: 1ex 2ex;
+	padding: 0 1ex;
+	border: 1px dotted #999;
+}
+
+div.bCommentTitle {
+	margin: .5ex 0 1ex 0;
+	font-weight: bold;
+	color: #333;
+}
+
+.bPostsWide h4 {
+	margin-bottom: .4em;
+}
+/* End styles for comments */ 
+
+/* Begin styles for stats page */
+div.statbloc {
+	margin: 0 2% 2ex 2%;
+	padding: 1ex;
+}
+
+div.statbloc h3 {
+	margin: 1em 0 .5em 0;
+	padding: 0;
+	color: #333;
+}
+
+table.invisible {
+	margin: 1ex;
+	border-collapse: collapse
+}
+
+table.invisible td {
+	padding: 0ex 1ex;
+}
+
+td.right {
+	text-align: right;
+}
+/* End styles for stats page */ 
+/* End styles for posts */
+
+/* Begin styles for headers */
+h1,h2,h3 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif
+		;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+	padding-top: 70px;
+	margin: 0;
+}
+
+h1,h1 a,h1 a:hover,h1 a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+h2 {
+	font-size: 1.6em;
+	margin: 30px 0 0;
+}
+
+h2,h2 a,h2 a:visited,h3,h3 a,h3 a:visited {
+	color: #333;
+}
+
+h2,h2 a,h2 a:hover,h2 a:visited,h3,h3 a,h3 a:hover,h3 a:visited,#bSideBar h2,cite
+	{
+	text-decoration: none;
+}
+
+h2 a:hover,h3 a:hover {
+	color: #06c;
+}
+
+h2.pagetitle {
+	font-size: 1.5em;
+	margin-top: 18px;
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.3em;
+	padding: 0;
+	margin: 30px 0 0;
+}
+
+h3.comments {
+	padding: 0;
+	margin: 40px auto 20px;
+}
+/* End styles for headers */ 
+
+/* Begin styles for the sidebar */
+.bSideBar h2,.bSideBar h3,.bSideBar h4 {
+	font-family: 'Lucida Grande', Verdana, sans-serif;
+	font-size: 1.3em;
+	margin: .6em 0 0 0;
+	padding: 0;
+}
+
+.bSideBar h3 {
+	font-size: 1.2em;
+}
+
+.bSideBar h4 {
+	font-size: 1.1em;
+}
+
+.bSideBar ul ul li,.bSideBar ul ol li {
+	color: #777;
+}
+
+.bSideBar ul,.bSideBar ul ol,.bSideBar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin: 1px 0 1px 4px;
+	padding: 0;
+}
+
+.bSideBar ul p,.bSideBar ul select {
+	margin: 4px 0 8px;
+}
+
+.bSideBar ul ul,.bSideBar ul ol {
+	margin: 4px 0 0 8px;
+}
+
+.bSideBar ul ul ul,.bSideBar ul ol {
+	margin: 0 0 0 12px;
+}
+
+ol li,.bSideBar ul ol li {
+	list-style: decimal outside;
+}
+
+#bSideBar ul ul li,#bSideBar ul ol li {
+	margin: 4px 0 0;
+	padding: 0;
+}
+/* End Entry Lists */ 
+
+/* Begin sidebar search styles */
+.bSideBar input.SearchField {
+	background-color: #FFFFFF;
+	border-width: 1px;
+	border-color: #cccccc;
+	border-style: solid;
+	padding: .5ex;
+	width: 96%;
+	margin: 0ex;
+}
+
+.bSideBar input.submit,.bSideBar input.reset {
+	background-color: #f0f0f0 !important;
+	color: #06c !important;
+	border: 1px solid #000 !important;
+	font-weight: bold;
+	padding: 1px;
+}
+
+.bSideBar input.submit:hover,.bSideBar input.reset:hover {
+	color: #000;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#bSideBar form {
+	margin: 0 0 12px 0;
+}
+/* End sidebar search styles */ 
+/* End styles for the sidebar */
+
+/* Begin image styles */
+img {
+	border: none;
+}
+
+a img {
+	border: none;
+}
+
+img.top {
+	vertical-align: top;
+	border: 0px;
+}
+
+img.middle {
+	vertical-align: middle;
+	border: 0px;
+}
+
+img.leftmargin {
+	float: left;
+	border: 0px;
+	margin-right: 1ex;
+	margin-top: .2ex;
+	margin-bottom: .2ex;
+}
+
+img.rightmargin {
+	float: right;
+	border: 0px;
+	margin-left: 1ex;
+	margin-top: .2ex;
+	margin-bottom: .2ex;
+}
+
+img.flag {
+	vertical-align: middle;
+	border: 1px solid #000;
+}
+/* End image styles */ 
+
+/* Begin Various Tags & Classes */
+a.permanent_link {
+	background: url(img/chain_link.gif) no-repeat;
+	height: 25px;
+	width: 25px;
+}
+
+acronym,abbr {
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	cursor: help;
+}
+
+acronym,abbr {
+	border-bottom: 1px dashed #999;
+}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+	color: #777;
+}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+}
+
+code {
+	font-size: .9em;
+	font-family: 'Courier New', Courier, Fixed, monospace;
+}
+
+hr {
+	display: none;
+}
+
+strike {
+	color: #777;
+}
+
+.baseline {
+	margin: 0;
+	padding: 2ex 0 2ex 0;
+	text-align: center;
+	font-size: 96%;
+}
+
+.baseline a {
+	color: #333;
+	text-decoration: none;
+}
+
+.baseline a:hover {
+	color: #111;
+	text-decoration: underline;
+}
+
+a {
+	color: #06c;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #147;
+	text-decoration: underline;
+}
+
+a.permalink_right {
+	float: right;
+	border: 0px;
+}
+
+.bMore {
+	margin-left: 4em;
+}
+
+.bMore a {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+/* End Various Tags & Classes*/ 
+
+/* Begin generic calendar styles */
+caption.bCalendarCaption {
+	font-size: 105%;
+	font-weight: bold;
+	margin: auto;
+	padding: .5ex 0;
+	white-space: nowrap;
+}
+
+table.bCalendarTable {
+	margin: 0 auto 1em auto;
+	font-size: 77%;
+	border-collapse: separate;
+	border-spacing: 0px;
+}
+
+tr.bCalendarRow {
+	text-align: center;
+}
+
+th.bCalendarHeaderCell {
+	font-size: 84%;
+	width: 4ex;
+}
+
+td.bCalendarCell {
+	width: 4ex;
+	height: 3.5ex;
+}
+
+.bCalendarLinkPost {
+	font-weight: bold;
+}
+
+td#prev,td#next {
+	font-weight: bold;
+	font-size: 105%;
+	padding: .5ex;
+	white-space: nowrap;
+}
+
+td#prev a,td#next a {
+	padding: 0 .5ex;
+}
+
+td#prev {
+	text-align: left;
+}
+
+td#next {
+	text-align: right;
+}
+/* End generic calendar styles */
