@@ -144,7 +144,7 @@ skin_include( '_html_header.inc.php' );
 				'title_after' => '</h2>',
 				'title_none'  => '',
 				'glue'        => ' - ',
-				'title_single_disp' => true,
+				'title_single_disp' => false,
 				'format'      => 'htmlbody',
 			) );
 		// ----------------------------- END OF REQUEST TITLE ----------------------------
