@@ -4,6 +4,10 @@ Link to skin: http://skins.b2evolution.net/crystal-glass-skin
 
 <img src="skinshot.png"/>
 
+#### v1.1.1
+
+- New skinshot
+
 #### v1.1.
 
 - Sitewide_header included for easier multi-blogging experience
